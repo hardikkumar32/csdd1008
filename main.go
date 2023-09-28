@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func SimpleFunction() {
+	fmt.Println("Hello World")
+}
+
 func main() {
-	fmt.Println("Hi")
+	SimpleFunction()
+	// fmt.Println("Hi")
 }
