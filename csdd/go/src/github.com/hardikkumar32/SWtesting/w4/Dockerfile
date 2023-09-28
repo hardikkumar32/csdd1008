@@ -1,6 +1,6 @@
 #Create multi stage Docker 
 #BUILD STAGE
-FROM golang: 1.21.1-alpine as builder
+FROM golang:1.21.1-alpine as builder
 
 #Set the woking directory 
 WORKDIR /app
